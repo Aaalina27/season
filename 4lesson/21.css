@@ -1,0 +1,41 @@
+body {
+    background-image: url(5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 100px;
+    /*чтобы у текста слева и справа появились отступы*/
+    background-attachment: fixed;
+    /*чтобы картинка не моталась*/
+    color: saddlebrown;
+
+}
+div{
+    background-color: rgba(213, 210, 210, 0.5);
+    text-shadow: 1px 1px 0 black;
+    text-align: justify;
+    padding: 10px;
+}
+nav{
+    background-color: rgba(255, 238, 48, 0.5);
+    text-align: center;
+    padding: 10px;
+
+}
+ol{
+    list-style-type: none;
+/*    убрать цифры*/
+}
+li{
+    display: inline;
+/*    ссылки в линию*/
+    margin: 50px;
+    font-size: 24px;
+}
+a{
+    color: darkgreen;
+    text-decoration: none;
+}
+li:hover{
+    color: deeppink;
+    text-decoration: underline;
+}
