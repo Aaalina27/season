@@ -1,0 +1,36 @@
+ol {
+    font-family: "Century Gothic";
+    font-size: 18px ;
+    font-weight: 200;
+    list-style-image: url("../img/strike.png");
+}
+
+/*.s1 {
+    list-style-image: url("../png/strike.png");
+    padding-left: 10px;
+}
+ */
+
+.winter {
+    list-style-image: url("../img/aut.png");
+    padding-left: 24px;
+
+}
+.spring {
+    list-style-image: url("../img/spr.png");
+    padding-left: 24px;
+
+}
+.summer {
+    list-style-image: url("../img/sum.png");
+    padding-left: 24px;
+
+}
+.autumn {
+    list-style-image: url("../img/aut.png");
+    padding-left: 24px;
+
+}
+div{
+    background-color: silver;
+}
